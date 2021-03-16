@@ -93,17 +93,16 @@ header img {
 
 .color-box-container {
     display: inline-block;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 280px;
     border: 3px solid black;
 
     margin: 3px;
-    padding-top: 15px;
+    padding: 5px 10px;
 }
 
 .color-box,
 .color-box-white {
-    height: 200px;
 
     display:flex;
     justify-content:center;
@@ -122,11 +121,6 @@ header img {
 
 .color-info {
     position: center;
-}
-
-.color-info p {
-    margin-bottom: 15px;
-    margin-top: 15px;
 }
 
     /* Fonts and Text Style section */

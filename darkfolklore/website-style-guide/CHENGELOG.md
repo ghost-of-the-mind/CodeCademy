@@ -7,12 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2021-03-16
+### Fixed
+- The html layout/structure of the Color Palete after the v1.01 update
+
 ## [1.0.1] - 2021-03-16
 ### Changed
-- Improved the styling for paragraphs a.k.a. <p>
+- Improved the styling for paragraphs a.k.a. <p>.
 
 ## [1.0.0] - 2021-03-16
 ### Added
-- Styles for a Color palete
-- Styles for Fonts
+- Styles for a Color palete.
+- Styles for Fonts.
 - Styles for headings and paragraphs.
