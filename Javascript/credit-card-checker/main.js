@@ -9,10 +9,7 @@ const addNewCard = (digits) => {
 
 console.log(addNewCard(34544567543))
 
-
 /* CARDS To TEST */
-
-
 
     // All valid credit card numbers
     const valid1 = [4, 5, 3, 9, 6, 7, 7, 9, 0, 8, 0, 1, 6, 8, 0, 8];
@@ -84,11 +81,12 @@ const validateCred = arr => {
 };
 
 ////////////// Validate or invalidate all of the cards
-/* for (i = 0; i < batch.length; i++) {
+
+/* 
+    for (i = 0; i < batch.length; i++) {
   console.log(validateCred(batch[i]));
-}; */
-
-
+}; 
+*/
 
 ////////////// Makes a list of all of the invalid cards
 
@@ -104,13 +102,19 @@ const findInvalidCards = arr => {
   return invalidCards
 };
 
-/* for (i = 0; i < batch.length; i++) {
+////////////// Finds all the invalid cards in the batch
+
+/* 
+    for (i = 0; i < batch.length; i++) {
   findInvalidCards(batch[i]);
-}; */
+}; 
+*/
 
 ////////////// Prints a list of all the invalid cards
 
-/* console.log(invalidCards); */
+/* 
+console.log(invalidCards); 
+*/
 
 ////////////// For finding the companies that issues the invalid cards
 
@@ -152,4 +156,6 @@ let compList = Array.from(companies)
 
 ////////////// Prints a list of all the companies (without duplicates) that have setn us an invalid card
 
-/* console.log(compList); */
+/* 
+console.log(compList); 
+*/

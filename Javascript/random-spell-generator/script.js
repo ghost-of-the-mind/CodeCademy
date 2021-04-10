@@ -64,6 +64,15 @@ const generateRandomSpell = () => {
     return console.log(randomSource + " " + randomQuality + " " + randomEffect);
 };
 
-//// Calls/enables the function to work and logs/prints the result
+//// Calls/enables the function to work and logs/prints the result ONCE
 
-generateRandomSpell();
+    /// generateRandomSpell();
+
+//// Calls/enables the function to work and logs/prints the result 5 TIMES
+
+function repeat(func, times) {
+    func();
+    times && --times && repeat(func, times);
+}
+
+repeat(generateRandomSpell, 5);

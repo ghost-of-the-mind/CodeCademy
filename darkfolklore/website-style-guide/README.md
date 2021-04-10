@@ -37,4 +37,4 @@ You can see the finished project in use on [www.darkfolklore.com](https://darkfo
 
 ## Feedback
 
-Created by @ghost-of-the-mind - feel free to contact me!
+Created by [ghost-in-the-mind](https://github.com/ghost-of-the-mind) - feel free to contact me about job applications, questions surrounding the code found in this rep., etc.!
